@@ -1,27 +1,42 @@
-# Change these first
-owner: NetaMx
-repo: upptime
+---
+owner: "NetaMx"
+repo: "upptime"
 
 sites:
   - name: "NetaMx Site"
-    url: "https://neta.mx/"
+    url: "http://18.116.153.81:5050"
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
+  - name: "API Gateway"
+    url: "https://xkxzvljbtd.execute-api.us-east-2.amazonaws.com"
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "Api ops"
+    url: "https://api-ops-prod.neta.mx:3013"
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+      - 503
+      - 502
+
+assignees:
+  - "adrianhorizon"
 
 status-website:
-  baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png
-  name: NetaMX Upptime
-  introTitle: "**NetaMx** *Insurance, the new way!* - Uptime monitor and status page, powered entirely by [Upptime](https://upptime.js.org/) and [GitHub Pages](https://pages.github.com/)."
-  introMessage: "This is the **NetaMx** status page which uses **real-time** data from our [GitHub repository](https://github.com/NetaMx/upptime)."
+  cname: "status.ops.neta.mx"
+  logoUrl: "https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png"
+  favicon: "https://raw.githubusercontent.com/NetaMx/upptime/master/assets/Logo_Neta_Close.png"
+  name: ""
+  introTitle: "**NetaMx** Estado de Servicios"
+  introMessage: "Esta es la pagina de estado de servicios en tiempo real para **NetaMx** "
+  theme: "light"
   navbar:
     - title: "Status"
       href: "/"
-    - title: "GitHub"
-      href: "https://github.com/$OWNER/$REPO"
-    - title: "About Us"
-      href: "https://neta.mx/"
   metaTags:
     - name: "color-scheme"
       content: "light"
@@ -36,3 +51,5 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
+
+user-agent: "adrianhorizon"
