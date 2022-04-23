@@ -5,17 +5,19 @@
     "icon": "https://favicons.githubusercontent.com/18.116.153.81",
     "slug": "neta-mx-site",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 56,
-    "timeDay": 56,
-    "timeWeek": 52,
-    "timeMonth": 56,
-    "timeYear": 56,
-    "dailyMinutesDown": {}
+    "uptime": "99.78%",
+    "uptimeDay": "96.39%",
+    "uptimeWeek": "99.48%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.78%",
+    "time": 121,
+    "timeDay": 138,
+    "timeWeek": 138,
+    "timeMonth": 121,
+    "timeYear": 121,
+    "dailyMinutesDown": {
+      "2022-04-22": 52
+    }
   },
   {
     "name": "API Gateway",
@@ -23,16 +25,16 @@
     "icon": "https://favicons.githubusercontent.com/xkxzvljbtd.execute-api.us-east-2.amazonaws.com",
     "slug": "api-gateway",
     "status": "down",
-    "uptime": "99.84%",
+    "uptime": "99.93%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.83%",
-    "uptimeMonth": "99.84%",
-    "uptimeYear": "99.84%",
-    "time": 142,
-    "timeDay": 151,
-    "timeWeek": 142,
-    "timeMonth": 142,
-    "timeYear": 142,
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.93%",
+    "time": 319,
+    "timeDay": 319,
+    "timeWeek": 319,
+    "timeMonth": 319,
+    "timeYear": 319,
     "dailyMinutesDown": {
       "2022-04-06": 17
     }
@@ -48,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 163,
-    "timeDay": 147,
-    "timeWeek": 163,
-    "timeMonth": 163,
-    "timeYear": 163,
+    "time": 258,
+    "timeDay": 258,
+    "timeWeek": 258,
+    "timeMonth": 258,
+    "timeYear": 258,
     "dailyMinutesDown": {}
   }
 ]
