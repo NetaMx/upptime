@@ -4,27 +4,55 @@ repo: "upptime"
 
 sites:
   - name: "NetaMx Site"
-    url: "http://18.116.153.81:5050"
+    url: $SECRET_SITE_NETA
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
-  - name: "API Gateway"
-    url: "https://xkxzvljbtd.execute-api.us-east-2.amazonaws.com"
-    maxResponseTime: 2000
-    expectedStatusCodes:
-      - 200
-      - 403
-  - name: "Api ops"
-    url: "https://api-ops-prod.neta.mx:3013"
+  - name: "Mi Tienda"
+    url: $SECRET_SITE_MITIENDA
     maxResponseTime: 2000
     expectedStatusCodes:
       - 200
       - 403
-      - 503
-      - 502
+  - name: "Data Analitycs"
+    url: $SECRET_SITE_REDASH
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Autenticacion"
+    url: $SECRET_SITE_OPS_SECURITY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Facturacion"
+    url: $SECRET_SITE_OPS_INVOICE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Entregas"
+    url: $SECRET_SITE_OPS_DELIVERY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Ordenes"
+    url: $SECRET_SITE_OPS_ORDER
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Ordenes V2"
+    url: $SECRET_SITE_RENGOKU
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Gestion de Tiendas"
+    url: $SECRET_SITE_OPS_STORE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200   
 
 assignees:
   - "adrianhorizon"
+  - "yisusvii"
 
 status-website:
   cname: "status.ops.neta.mx"
@@ -37,11 +65,14 @@ status-website:
   navbar:
     - title: "Status"
       href: "/"
+    - title: "QA Service Status"
+      href: "https://qa.status.ops.neta.mx/"
   metaTags:
     - name: "color-scheme"
       content: "light"
     - name: "robots"
       content: "noindex"
+      
 
 workflowSchedule:
   graphs: "0 0 * * *"
