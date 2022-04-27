@@ -1,7 +1,7 @@
 url: $SECRET_SITE_NETA
-status: down
-code: 500
-responseTime: 28
-lastUpdated: 2022-04-27T22:31:41.644Z
+status: up
+code: 200
+responseTime: 72
+lastUpdated: 2022-04-27T22:41:04.017Z
 startTime: Wed Apr 06 2022 13:23:28 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
