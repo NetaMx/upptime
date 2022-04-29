@@ -48,7 +48,7 @@ sites:
     url: $SECRET_SITE_OPS_STORE
     maxResponseTime: 2000
     expectedStatusCodes:
-      - 200   
+      - 2000   
 
 assignees:
   - "adrianhorizon"
