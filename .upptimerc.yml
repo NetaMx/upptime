@@ -48,7 +48,12 @@ sites:
     url: $SECRET_SITE_OPS_STORE
     maxResponseTime: 2000
     expectedStatusCodes:
-      - 200   
+      - 200
+  - name: "Core api"
+    url: $SECRET_SITE_CORE_API
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
 
 assignees:
   - "adrianhorizon"
@@ -72,7 +77,6 @@ status-website:
       content: "light"
     - name: "robots"
       content: "noindex"
-      
 
 workflowSchedule:
   graphs: "0 0 * * *"
