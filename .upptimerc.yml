@@ -57,7 +57,6 @@ sites:
 
 assignees:
   - "adrianhorizon"
-  - "yisusvii"
 
 status-website:
   cname: "status.ops.neta.mx"
@@ -70,6 +69,8 @@ status-website:
   navbar:
     - title: "Status"
       href: "/"
+    - title: "Dev Service Status"
+      href: "https://dev.status.ops.neta.mx/"
     - title: "QA Service Status"
       href: "https://qa.status.ops.neta.mx/"
   metaTags:
