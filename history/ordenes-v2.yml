@@ -1,7 +1,7 @@
 url: $SECRET_SITE_RENGOKU
-status: down
-code: 503
-responseTime: 211
-lastUpdated: 2022-07-11T23:11:45.299Z
+status: up
+code: 200
+responseTime: 140
+lastUpdated: 2022-07-11T23:23:56.887Z
 startTime: Mon Apr 25 2022 04:16:06 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
